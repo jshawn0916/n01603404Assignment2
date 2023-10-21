@@ -12,17 +12,18 @@ namespace n01603404Assignment2.Controllers
         //For J3 - myFavoritMovie
         //GET api/J3/myFavoritMovie/{movie}
         /// <summary>
-        /// You have an array of movies with assigned order. When a number between 1 and 6 is entered, 
-        /// it will display the corresponding movie name. For any other input, it will show text
+        /// You have a list of movies with assigned order. When a number between 1 and 6 is entered, 
+        /// it will display the corresponding movie name. For any other input,
+        /// it will show "We only have 6 movies in the list(please enter 1-6 number only)" text
         /// </summary>
-        /// <param name="movieNum"></param>
+        /// <param name="movieNum">input number</param>
         /// <returns></returns>
 
         [HttpGet]
         [Route("api/J3/myFavoriteMovie/{movieNum}")]
         public string myFavoriteMovie(int movieNum) {
 
-            //Movie array
+            //Movie list
             List<string> Movie = new List<string>();
             Movie.Add("Iron man");
             Movie.Add("In the Mood for Love");

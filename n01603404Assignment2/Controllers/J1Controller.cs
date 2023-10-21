@@ -18,28 +18,28 @@ namespace n01603404Assignment2.Controllers {
 
         public int Menu(int burger, int drink, int side, int dessert)
         {
-            //Burger calories array
+            //Burger calories list
             List<int> Burgers = new List<int>();
             Burgers.Add(461);
             Burgers.Add(431);
             Burgers.Add(420);
             Burgers.Add(0);
 
-            //Drink calories array
+            //Drink calories list
             List<int> Drinks = new List<int>();
             Drinks.Add(130);
             Drinks.Add(160);
             Drinks.Add(118);
             Drinks.Add(0);
 
-            //Side calories array
+            //Side calories list
             List<int> Side = new List<int>();
             Side.Add(100);
             Side.Add(57);
             Side.Add(70);
             Side.Add(0);
 
-            //Dessert calories array
+            //Dessert calories list
             List<int> Dessert = new List<int>();
             Dessert.Add(167);
             Dessert.Add(266);
